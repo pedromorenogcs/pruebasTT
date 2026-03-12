@@ -29,8 +29,8 @@ public class TimesTenConnection {
 
     // ── Método principal de ejemplo ────────────────────────────────────────────
     public static void main(String[] args) {
-        String sql = "SELECT col1 FROM IUM.t";
-        //String sql = "select HOSTNAME from SYS.V$HOST_NAME";
+        //String sql = "SELECT col1 FROM IUM.t";
+        String sql = "select HOSTNAME from SYS.V$HOST_NAME";
 
         try {
             Class.forName(DRIVER);
