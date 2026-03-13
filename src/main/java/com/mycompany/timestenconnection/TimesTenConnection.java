@@ -21,7 +21,8 @@ import java.sql.SQLException;
 public class TimesTenConnection {
 
     // ── Configuración de conexión ──────────────────────────────────────────────
-    private static final String DRIVER   = "com.timesten.jdbc.TimesTenDriver";
+    //private static final String DRIVER   = "com.timesten.jdbc.TimesTenDriver";
+    private static final String DRIVER   = "com.timesten.direct.TimesTenDriver";
     private static final String URL      = "jdbc:timesten:client:DSN=DEG_APP_DB_CS"; 
     // Para conexión client/server: "jdbc:timesten:client:DSN=miDSN;TTC_SERVER=host;TTC_PORT=17000"
     private static final String USER     = "adm";
